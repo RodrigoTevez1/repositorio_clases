@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+h1{
+    color:aqua(9, 148,148,1);/* cambiar el color de un texto */
+    font-size: 14px;  /*  cambiar el tamañp del texto*/
+    letter-spacing: -1px; /*no se usa mucho, cuando queremos expaciar letras o textos muy grandes */
+    word-spacing: -1px ;/* espaciar entre palabras, distancia entre palabras */
+    text-decoration: underline red  ;  /* subrallado(underline), linea x encima del texto(overline) line-trought()tachar, wavy (oleado), dotted(punteado), dashed */
+    text-shadow: 20px 0px 3px rgb(112, 96, 215); /* sombra para el texto, va ordenado, primero eje X (unidad de tamaño)y dsps eje Y (eje invertido negativo va hacia arriba y positivo va hacia abajo)(unidad de tamaño), y el valor difuminador (unidad de tamaño)*/
+    background-color: brown(0, 0, 0);/* color de fondo */
+    width: 300px;/* ancho*/
+    /* heigth: 100px alto */ 
+    text-align: center; /* centrado del texto */
+    font-family: "Poppins", sans-serif; /* fuente general */
+
+}
+
+p{
+    font-weight: 700;/*  */
+    line-height: 15px;/* cambia el espacio entre renglones */
+}
+
+/* text shadow pagina web
+google fonts
+ */
+ 
+//* elementos en bloque toma todo el ancho de la pantalla -->
+<!-- los que toman solo el tamaño del contenido, en linea -->
+
+en block: div, header, nav, section, article, aside, footer, body, h1, h2, h3, p, form, ul,li (les puedo dar alto y ancho)
+inline: label, a, span, b
+ inline block: img, input, button, select, textarea, video, inframe, audio.(les puedo dar alto y ancho)
+ 
