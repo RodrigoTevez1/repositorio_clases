@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+
+}
+
+.padre{
+   
+    background-color: green;
+    height: 500vh; /* viewport height (relativo, se amolda )*/
+    width: 100vw; /* viwport widht */
+    display: flex;
+    flex-direction: row-reverse/* uno abao del otro ,row, flex reverse*/;
+    gap:50px ;/* espaciado entre hijos */
+    flex-wrap:wrap ;/* para hacer que cuando no quede espacio en horizontal se vaya hacia abajo wrap y no wrap*/
+    /*row-gap: 100;
+    column-gap: 100;*/
+    justify-content: space-between
+    ;/*justify content para centrar los hijos con respecto al eje x , end a la derecha, start a la izquierda, space between: permite espacial al maximo los hijos*/
+    /* space evenly ,divide el espacio entre la cantidad de hijos hacia el costado*/
+    /* space araund.: */
+    align-items: center ;/* align alinea en el eje y */
+    /*  */
+
+
+}
+
+.padre .hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+
+}
+
+.padre .especial{
+    background-color:red ;
+}

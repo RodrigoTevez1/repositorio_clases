@@ -1,0 +1,83 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.color-card{
+
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+
+}
+
+.color-card .colors{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.color-card .colors .color:nth-child(1){ /* nth-child(1)= */
+
+    height: 40%;
+    background-color:rgb(255, 1, 1);
+}
+.color-card .colors .color:nth-child(2){ /* nth-child(1)= */
+
+    height: 30%;
+    background-color:yellowgreen ;
+}
+.color-card .colors .color:nth-child(3){ /* nth-child(1)= */
+
+    
+    height: 17%;
+    background-color:pink;
+}
+.color-card .colors .color:nth-child(4){ /* nth-child(1)= */
+
+    
+    height: 13%;
+    background-color: blue;
+}
+
+.color-card .color-card-controls{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.color-card .color-card-controls .btn-like{
+
+    height: 40px;
+    padding: 0px 14px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.132);
+    border-radius: 10px;
+    gap:5px;
+    
+
+}
+
+.color-card .color-card-controls .time{
+    color: #9d9d9d;
+    font-size: 14px;
+}

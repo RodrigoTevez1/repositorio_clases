@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.padre{
+
+    width: 100vw;
+    height: 500vh;
+    background-color: green;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+.hijo:nth-child(1){
+    background-color: blueviolet;
+}
+.hijo:nth-child(2){
+    background-color: rgb(43, 64, 226);
+    position: sticky;
+    left: 10px;
+    top:90px;
+    z-index: 1;
+    
+}
+.hijo:nth-child(3){
+    background-color: rgb(6, 228, 50);
+    
+}
+
+
+
+/* si queremos que un bos suba individualmente podremos solucionar usando margin bottom si queremos que suba, o margin top si queremos que baje, pero esto no es una buena solucion.
+ al igual que s queremos mover hacia la izquierda o derecha, el margin no deberia usarse para posicionar.
+  Para esto utilizaremos la tecnologia position, que vendria a ser un display.
+  
+  position: static - es la posicion por defecto
+  
+  position: relative; se dice que es relativo, porque se mueve relativo a la posicion en donde se encontraba originalmente. con esto activo 5 propiedades, estas son:
+
+ (Generan un margen en el valor que le pongamos)
+
+  top: 20px; ejemplo podemos usar 20 o -20
+  bottom :
+  left:
+  right:
+  Z-index: profundidad, nuestro body se encuentra en el 0 y lo demas por defecto se encuentran en en la posicion 1
+
+     ahora si queremos utilizar left y right a la misma vez, el programa tomara el left porque este tiene mayot prioridad
+
+     o si utilizamos top y bottom a la vez, top tiene mas valor.
+
+
+    position absolut: esta propiedad toma la posicion desde el 0x,0y del body. ya no se mueve desde su posicion original, y no se mantiene su espacio una vez que cambia de posicion. tampoco sigue la posicion del  padre.
+
+    para poder solucionar esto,y que el hijo siga  la posicion o tome como valor inical al padre, debemos hacer que el padre tenga otro valor que no sea posicion:static. 
+
+    position :fixed ; pega o congela el elemento a la pagina. al body.en la posicion que le configuremos.
+
+    position: sticky; se congela cuando este a X cantidad de pixels del top
+
+
+
+  */

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .padre{
+    
+  /* height: 100vh para formato celular es mejor no poner la altura para que se adapte */
+   width: 100vh;
+    background-color: rgb(86, 9, 86);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+
+ }
+
+ .hijo{
+    width: 100%; /* vamos a usar porcentajes en vez de px */
+    height: 250px;
+    border-radius: 15px;
+    background-color: white;
+    border:1px solid black;
+
+ }

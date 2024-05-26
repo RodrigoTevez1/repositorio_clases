@@ -1,0 +1,61 @@
+/* normalizacion/ */
+*{
+    box-sizing: border-box;
+    margin: 0;/* elimina los margenes por defecto */
+    padding: 0;/*  elimina el espacio padding por defecto*/
+    
+
+}
+
+
+
+body{
+    background-color: rgb(184, 184, 204);
+}
+
+input{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 
+        0px 2px 1px 0px rgb(9, 4, 144) (0 ,0,0,211),
+        0px 2px 1px -10px rgb(9, 4, 144) (0 ,0,0,211);
+}
+
+.caja{
+
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 10px;/* redondea las cajas */
+    border: 3px solid rgb(9, 4, 144);
+    box-sizing: border-box;/* elimina los pixeles que agrega el borde anterior */
+    color: white;
+    margin: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 50px 30px blue;/* sombra para la caja (eje x, eje y, base, color */
+    
+}
+span{
+    color:blue;
+    text-align:right;
+    
+}
+
+ul{
+    padding-left:20px;/* espacio a la izquierda */
+}
+
+li{
+    list-style-type:circle;/* estilo de numeracion o simbolo de items */
+
+}
+
+h1{
+    color: aliceblue;
+    font-family: sans-serif;
+
+
+}
+
+/* neuromorphism.io web para sombras */

@@ -14,10 +14,10 @@ h1{
     word-spacing: -1px ;/* espaciar entre palabras, distancia entre palabras */
     text-decoration: underline red  ;  /* subrallado(underline), linea x encima del texto(overline) line-trought()tachar, wavy (oleado), dotted(punteado), dashed */
     text-shadow: 20px 0px 3px rgb(112, 96, 215); /* sombra para el texto, va ordenado, primero eje X (unidad de tamaño)y dsps eje Y (eje invertido negativo va hacia arriba y positivo va hacia abajo)(unidad de tamaño), y el valor difuminador (unidad de tamaño)*/
-    background-color: brown(0, 0, 0);/* color de fondo */
+    background-color: brown(300px, 300px, );/* color de fondo */
     width: 300px;/* ancho*/
     /* heigth: 100px alto */ 
-    text-align: center; /* centrado del texto */
+    text-align: left; /* centrado del texto */
     font-family: "Poppins", sans-serif; /* fuente general */
 
 }
@@ -25,16 +25,17 @@ h1{
 p{
     font-weight: 700;/*  */
     line-height: 15px;/* cambia el espacio entre renglones */
+    color: blue;
 }
 
 /* text shadow pagina web
 google fonts
  */
  
-//* elementos en bloque toma todo el ancho de la pantalla -->
+/* elementos en bloque toma todo el ancho de la pantalla -->
 <!-- los que toman solo el tamaño del contenido, en linea -->
 
-en block: div, header, nav, section, article, aside, footer, body, h1, h2, h3, p, form, ul,li (les puedo dar alto y ancho)
+/*  en block: div, header, nav, section, article, aside, footer, body, h1, h2, h3, p, form, ul,li (les puedo dar alto y ancho)
 inline: label, a, span, b
  inline block: img, input, button, select, textarea, video, inframe, audio.(les puedo dar alto y ancho)
- 
+  */
